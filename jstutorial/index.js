@@ -224,41 +224,82 @@ tn = document.getElementsByTagName('button');
 //console.log(tn);
 tn = document.getElementsByTagName('div');
 //console.log(tn);
-createdElement = document.createElement('p');
-createdElement.innerText = "This is a created Para";
-tn[0].appendChild(createdElement);
-createdElement2 = document.createElement('b');
-createdElement2.innerText = "This is a created Bold";
-tn[0].replaceChild(createdElement2,createdElement);
-// Selecting using Query
-sel = 
+// createdElement = document.createElement('p');
+// createdElement.innerText = "This is a created Para";
+// tn[0].appendChild(createdElement);
+// createdElement2 = document.createElement('b');
+// createdElement2.innerText = "This is a created Bold";
+// tn[0].replaceChild(createdElement2,createdElement);
+// // Selecting using Query
+// sel = document.querySelector('.container');
+// console.log(sel);
+// sel = document.querySelectorAll('.container');
+// console.log(sel);
+
+// //Events in javascript
+// function clicked()
+// {
+//     console.log('CLICKedddddddddd');
+// }
+// window.onload = function()
+// {
+//     console.log('The document was load');
+// }
+// firstContainer.addEventListener('click', function()
+// {
+//     console.log("Button clicked");
+// });
+
+//  firstContainer.addEventListener('mouseover', function()
+//  {
+//      console.log("mouse on container")
+//  });
+//  firstContainer.addEventListener('mouseout', function()
+//  {
+//      console.log("mouseout container")
+// });
+// firstContainer.addEventListener('mouseup', function()
+//  {
+//      console.log("mouseup when clicked on container")
+//  });
+//  firstContainer.addEventListener('mousedown', function()
+//  {
+//      console.log("mousedown when clicked on container")
+// });
+// Arrow function
+// function summ (a,b)
+// {
+//     return a+b;
+// }
+// summ = (a,b)=>
+//  {   
+//      return a-b;
+//  }
+//  setTimeout set interval
+// logkaro = ()=>
+// {
+//     document.querySelectorAll('.container')[1].innerHTML = "<b> Set interval fired </b>"
+//     console.log("Game started ")
+// }
+// setTimeout(logkaro,2000)
+//setInterval(logkaro,2000);
+ //clr = setInterval(logkaro,2000);
 
 
+// JavaScript localstorage
+// localStorage.setItem('name','hetal')
+// localStorage.getItem('name')
+// localStorage.removeItem('name')
+// localStorage.clear();
 
+//Json
+// obj = {name: "meera", length: 1,a: {this:'that'}}
+// jso = JSON.stringify(obj);
+// console.log(typeof jso);
+// console.log(jso);
+// parsed = JSON.parse(`{"name":"meera","length":1,"a":{"this":"that"}}`)
+// console.log(parsed);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Template literals - Backtics
+a = 4;
+console.log(`this is my ${a}`);
